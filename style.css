@@ -23,55 +23,18 @@ button{
   font-style: normal;
 }
 
+.buttonCont{
+    display: flex;
+    height: 10rem;
+    align-items: stretch;
+    width: 10rem;
+    height: 10rem;
+}
+
 .nameCredit{ 
 position: flex;
 text-align: center;
-font-size: 16px;
-}
-
-.informationDesignButton{
-background-color: black;
-color: white;
-}
-
-.informationDesignButton:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-}
-
-.mappingButton{
-    background-color: black;
-    color: white;
-
-}
-
-.mappingButton:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-}
-
-.characterisationButton{
-    background-color: black;
-    color: white;
-}
-
-.characterisationButton:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-}
-
-.feedbackButton{
-    background-color: black;
-    color: white;
-}
-
-.feedbackButton:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
+font-size: 18px;
 }
 
 .backButtonBlack{
@@ -108,4 +71,54 @@ h3{
   position: flex;  
   text-align: center;  
   font-size: 30px;
+}
+
+.infoDesignButton{
+    position: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.mappingButton{
+    position: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.characterisationButton{
+    position: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.feedbackButton{
+    position: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.column{
+    float: left;
+    width: 25%;
+
+}
+
+.infoDesignImages{
+    float: left;
+    width: 50%
+}
+
+.mappingImages{
+    float: left;
+    width: 33.33%
+}
+
+.characterisationImages{
+    float: left;
+    width: 25%
+}
+
+.feedbackImages{
+    float: left;
+    width: 50%
 }
