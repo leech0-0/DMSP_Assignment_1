@@ -1,0 +1,111 @@
+.title{
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: flex;  
+  text-align: center; 
+}
+
+p{
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+  font-size: 20px;
+  position: flex;
+  text-align: center;
+
+}
+
+button{
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nameCredit{ 
+position: flex;
+text-align: center;
+font-size: 16px;
+}
+
+.informationDesignButton{
+background-color: black;
+color: white;
+}
+
+.informationDesignButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.mappingButton{
+    background-color: black;
+    color: white;
+
+}
+
+.mappingButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.characterisationButton{
+    background-color: black;
+    color: white;
+}
+
+.characterisationButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.feedbackButton{
+    background-color: black;
+    color: white;
+}
+
+.feedbackButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.backButtonBlack{
+    background-color: black;
+    color: white;
+}
+
+.backButtonBlack:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;    
+}
+
+.backButtonWhite{
+    background-color: white;
+    color: black;
+}
+
+.backButtonWhite:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;    
+}
+
+.feedbackandMappingPage{
+    background-color: black;
+    color: white
+}
+
+h3{
+  font-family: "DM Serif Text", serif;
+  font-weight: 700;
+  font-style: normal;
+  position: flex;  
+  text-align: center;  
+  font-size: 30px;
+}
